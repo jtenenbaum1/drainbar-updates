@@ -4,22 +4,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.2.3</title>
-            <pubDate>Tue, 01 Sep 2026 16:42:11 -0400</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <title>0.2.4</title>
+            <pubDate>Tue, 01 Sep 2026 16:52:32 -0400</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.2.3
+            <description sparkle:format="markdown"><![CDATA[## What’s New
 
-- Claude usage now refreshes at the interval selected in Settings while continuing to honor rate-limit backoff.
-- Claude and Codex menu-bar meter styles can now be selected independently.
-- Claude keeps a compact multi-window stack option, or can show the focused window as a battery pill, pill with percent, or ring.
+- Get a notification when Claude begins a new 5-hour session.
+- DrainBar establishes the current session as a baseline, then alerts once per new session—even across relaunches.
+- Turn session-start alerts on or off in Settings → Notifications.
 ]]></description>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.3-5.zip" length="1700937" type="application/octet-stream" sparkle:edSignature="ewgDPm4OcMgWii3j8zGpehTlvhiHsARF200+f93mzxTJ/4e04HZ8HZ7tJ94wpGdEcnV5Z436ZU8k4MuW5SNiDA=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.4-6.zip" length="1702944" type="application/octet-stream" sparkle:edSignature="nv7mWnzJBY1FnN+AElytZ/wchvl15dAqbGhjMcJGcMVf+UOuRA0VPSaaPPo3HFyJJfArKl8WfmIzphsPOb2HCQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: jIFXuJ2T+F6txIM7bDms+0BrhnXH6T5OGQVJK+cdqntbE6vabFSFm+s4Zs6+VLtL537NJz7mgHCjVqm6lrHnDw==
-length: 1521
+edSignature: iRQEw+yFvwUhBqjCSnSaK5RLfOKJz5PeVAI+jC7JDSRnNaPgBUgUg0FPGcA1qG7nE9wdgsGMVkk2Ko4ob98lAw==
+length: 1450
 -->
