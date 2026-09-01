@@ -4,16 +4,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.2.1</title>
-            <pubDate>Tue, 01 Sep 2026 14:52:22 -0400</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <title>0.2.2</title>
+            <pubDate>Tue, 01 Sep 2026 16:26:47 -0400</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.1-3.zip" length="1681664" type="application/octet-stream" sparkle:edSignature="9fkbspjOtZ/HgCE1l1fxuyO0rcE8A3WPPiHNb1tz0Xq+ojbhwaR/VOyBnYfAH4EF0CD9SZ5ZvepBDcVTYzmmBw=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.2-4.zip" length="1694704" type="application/octet-stream" sparkle:edSignature="nPrjXn7HkbpjVMoF1svtFjqC58J4bZsOaCKD2VTqHERQhdSSRKup3veI+KUyRe190AJQXXEAK1kYRYAlF8+MDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ebl73xEV7YycmsehkI2Qz8hYXrGkiHynwMLylFOkos+yMi8R8LstCvEFNPRVEk/uNg3TROvjM0Li9R98CBPQCA==
+edSignature: 346Kna/e9sHE7FkKhQOBYjXsVuETJ+pVlH4d7WwaaV3EpHEXJwTfO6R3B9W+Xn6eCxQxfkqP8SKkakYF77+eCg==
 length: 1107
 -->
