@@ -4,16 +4,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.2.2</title>
-            <pubDate>Tue, 01 Sep 2026 16:26:47 -0400</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <title>0.2.3</title>
+            <pubDate>Tue, 01 Sep 2026 16:42:11 -0400</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.2-4.zip" length="1694704" type="application/octet-stream" sparkle:edSignature="nPrjXn7HkbpjVMoF1svtFjqC58J4bZsOaCKD2VTqHERQhdSSRKup3veI+KUyRe190AJQXXEAK1kYRYAlF8+MDQ=="></enclosure>
+            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.2.3
+
+- Claude usage now refreshes at the interval selected in Settings while continuing to honor rate-limit backoff.
+- Claude and Codex menu-bar meter styles can now be selected independently.
+- Claude keeps a compact multi-window stack option, or can show the focused window as a battery pill, pill with percent, or ring.
+]]></description>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.3-5.zip" length="1700937" type="application/octet-stream" sparkle:edSignature="ewgDPm4OcMgWii3j8zGpehTlvhiHsARF200+f93mzxTJ/4e04HZ8HZ7tJ94wpGdEcnV5Z436ZU8k4MuW5SNiDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 346Kna/e9sHE7FkKhQOBYjXsVuETJ+pVlH4d7WwaaV3EpHEXJwTfO6R3B9W+Xn6eCxQxfkqP8SKkakYF77+eCg==
-length: 1107
+edSignature: jIFXuJ2T+F6txIM7bDms+0BrhnXH6T5OGQVJK+cdqntbE6vabFSFm+s4Zs6+VLtL537NJz7mgHCjVqm6lrHnDw==
+length: 1521
 -->
