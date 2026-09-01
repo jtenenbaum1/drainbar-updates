@@ -4,22 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.2.4</title>
-            <pubDate>Tue, 01 Sep 2026 16:52:32 -0400</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+            <title>0.2.5</title>
+            <pubDate>Tue, 01 Sep 2026 17:02:39 -0400</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="markdown"><![CDATA[## What’s New
 
-- Get a notification when Claude begins a new 5-hour session.
-- DrainBar establishes the current session as a baseline, then alerts once per new session—even across relaunches.
-- Turn session-start alerts on or off in Settings → Notifications.
+- Claude and Codex provider logos now render at the same visual size in the menu bar.
+- The same normalized logo sizing is used in DrainBar’s menus and provider headers.
 ]]></description>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.4-6.zip" length="1702944" type="application/octet-stream" sparkle:edSignature="nv7mWnzJBY1FnN+AElytZ/wchvl15dAqbGhjMcJGcMVf+UOuRA0VPSaaPPo3HFyJJfArKl8WfmIzphsPOb2HCQ=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.5-7.zip" length="1704883" type="application/octet-stream" sparkle:edSignature="h8w8IpcT1CnftSamyvtyi9chs+Ar2S4Y0ctYcAqlDTQpe1kwswcjyJZdSxaGTZTJCwvE9ZGe2yr4iyx2tz2zAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: iRQEw+yFvwUhBqjCSnSaK5RLfOKJz5PeVAI+jC7JDSRnNaPgBUgUg0FPGcA1qG7nE9wdgsGMVkk2Ko4ob98lAw==
-length: 1450
+edSignature: wuFOuG/e/mAZNJhdU3Pp4C5hQvML9LxeV+VnUBiJLIprM+Am7Yis0pLyfQJe11cV7jBlRBVrZ1n08wGtzYcEAg==
+length: 1374
 -->
