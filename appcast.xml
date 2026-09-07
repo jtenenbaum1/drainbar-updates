@@ -4,21 +4,67 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.2.5</title>
-            <pubDate>Tue, 01 Sep 2026 17:02:39 -0400</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+            <title>0.3.0</title>
+            <pubDate>Mon, 07 Sep 2026 14:35:41 -0400</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s New
+            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.3.0
 
-- Claude and Codex provider logos now render at the same visual size in the menu bar.
-- The same normalized logo sizing is used in DrainBar’s menus and provider headers.
+A safety and clarity release. DrainBar now only ever reads from the tools it
+watches, explains itself in plain language, and is easier to set up.
+
+## Please note
+
+**DrainBar no longer refreshes your Claude sign-in.** Earlier versions wrote a
+renewed token back into Claude Code's own credential store. DrainBar now only
+reads. When the sign-in expires, DrainBar keeps showing your last usage, marks
+it stale, and asks you to run `claude` in Terminal so Claude Code renews its own
+sign-in. Nothing else changes about how usage is read.
+
+**Codex now defaults to Live account usage.** New installs read current limits
+straight from your account. If you previously chose Local session files, your
+choice is kept.
+
+## Setup and first run
+
+- A short welcome window on first launch shows which tools were found, explains
+  exactly what DrainBar reads, and lets you turn on notifications and Launch at
+  Login.
+- Changing accounts now shows the exact Terminal commands with a Copy button,
+  instead of opening a Terminal window and running commands for you.
+- Notifications are requested when you ask for them, not silently at launch.
+
+## Clearer in daily use
+
+- Errors are written in plain language. "Sign-in expired" and "Keychain access
+  needed" replace raw status codes and internal messages.
+- A denied Keychain prompt no longer repeats on every refresh.
+- Larger, more legible text in the popover, with VoiceOver labels on the menu
+  bar meter and each usage row.
+- The menu bar item has a tooltip describing the focused window.
+- Refresh shows progress instead of appearing to do nothing.
+- Standard menu with About, Settings, Welcome and Quit, so Command Q and
+  Command W behave as expected.
+
+## Appearance
+
+- The ring style no longer repeats the provider logo beside the ring. The logo
+  sits in the middle, larger and clear of the ring, and the readout is narrower.
+- New "Show sample data" option under Settings, General fills the meters with
+  example usage. Useful for trying DrainBar before signing in.
+
+## Under the hood
+
+- Both providers share one hardened network path: no cookies, no stored
+  credentials, no redirects, and a request timeout.
+- DrainBar never writes to another tool's credential store.
 ]]></description>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.2.5-7.zip" length="1704883" type="application/octet-stream" sparkle:edSignature="h8w8IpcT1CnftSamyvtyi9chs+Ar2S4Y0ctYcAqlDTQpe1kwswcjyJZdSxaGTZTJCwvE9ZGe2yr4iyx2tz2zAg=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.0-8.zip" length="1764219" type="application/octet-stream" sparkle:edSignature="o7JOQR+kJertiRKZtxw58iTyVm4S4EFDG+wAdqHJy82oPhmz7fPT3XKzN5wdbIoXZQpzvclh82BM/B/LnP/IDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: wuFOuG/e/mAZNJhdU3Pp4C5hQvML9LxeV+VnUBiJLIprM+Am7Yis0pLyfQJe11cV7jBlRBVrZ1n08wGtzYcEAg==
-length: 1374
+edSignature: Ig9715SkDnanBbTzVayhPK+DNdGm8OMCEIWvmlRPkqScosVR9Spbqcqxmcnsw9PRFCR0VUUgxhfqj6FZIgIFCQ==
+length: 3418
 -->
