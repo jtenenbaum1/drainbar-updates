@@ -4,31 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.3.1</title>
-            <pubDate>Tue, 08 Sep 2026 11:32:17 -0400</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <title>0.3.2</title>
+            <pubDate>Tue, 08 Sep 2026 14:52:33 -0400</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.3.1
+            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.3.2
 
-Service health is now visible at a glance for Claude and OpenAI.
+Notifications are more complete, configurable, and reliable.
 
-- New green, yellow, and red status indicators appear beside each provider's
-  latest usage timestamp.
-- Click a status indicator to open that provider's official service-status
-  page.
-- Claude and Codex menu-bar marks turn yellow for degraded service and red for
-  an outage. Healthy and unavailable states keep the normal menu-bar color.
-- Service health refreshes at launch, when the popover opens, with manual
-  refreshes, and periodically in the background.
-- VoiceOver labels and tooltips announce degraded and outage states without
-  relying on color alone.
+- Added Claude 5-hour and weekly reset notifications.
+- Added OpenAI 5-hour reset notifications when that window is available, plus weekly reset notifications.
+- Added support for multiple custom usage alerts with user-selected percentages.
+- Fixed notification permission status so it reflects the current macOS setting.
+- Notifications can now present banners, appear in Notification Center, and play a sound while DrainBar is active.
+- Fixed false session-reset alerts caused by one-second reset-time fluctuations.
+- Added a setting to disable yellow and red service-incident tinting on menu-bar provider icons.
 ]]></description>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.1-9.zip" length="1801086" type="application/octet-stream" sparkle:edSignature="I8oOUzUv/h4fnSTFpn2ImKy1FTgau66OFxU/rOa3M9+biAb8OSCzGQltwkhYV2VIUvwFKnV9Z+yF+ItpEqUqDA=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.2-10.zip" length="1837471" type="application/octet-stream" sparkle:edSignature="1gj4POoB/8zFyuQ+sCtj440pkzQToJskU9y76jfB8MwF0rnQGaxfknbH75kEoZcQV/OcjlyPHwylauaRYY0PBw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: oCReJydKMpSKOckS0wHXPy+8Ch8Nl281ggt8Els3ZskWlBqT37fcgxvEpOYZS5kwqcCPYnB/VgpGepfww4UCDA==
-length: 1835
+edSignature: c8IZwNm3R4um7NAKJfODdUtrqaWpGw/DfnRUkDYVH0rnJBTmtkhKXYoiVfJTRJA0GVhKJAarfdDbqB7HdOvABQ==
+length: 1882
 -->
