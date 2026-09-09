@@ -4,18 +4,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.3.6</title>
-            <pubDate>Wed, 09 Sep 2026 09:33:26 -0400</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <title>0.3.7</title>
+            <pubDate>Wed, 09 Sep 2026 09:52:58 -0400</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.3.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Version-only update to test the update availability indicator. No app behavior changes.
+            <description sparkle:format="markdown"><![CDATA[A power button beside Settings now provides an obvious way to quit DrainBar.
+
+Corrects folder suggestions during sandboxed onboarding to use the actual account home instead of the app container, including custom Codex paths beginning with ~.
 ]]></description>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.6-14.zip" length="1858498" type="application/octet-stream" sparkle:edSignature="BoIqpUb4FxHOFd2jgfrULGEz3BybrvDXYh0xN6fMZLbEfKvt8kPRnSbPDKebyTGzPRq3aXJmKoKarjLHwvq9Cw=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.7-16.zip" length="1860362" type="application/octet-stream" sparkle:edSignature="UlAq0gik0v8E0ou1iWYS0D+5wLop6dDXex+QlNc2p5cgxVCv/CFI+9ykoTKxCO1d6clKGKMRrJVqc8pkpdsIDw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 9eWSZpbSIfpWBRe1M06QmTmjRs3k133NNLBCbM3ObK0ykyYOSBkp0nzes1xUV3g0b2Le4lxJ+votbngwAQ/0Bg==
-length: 1275
+edSignature: xCiCewFip5qWpzt/wsTTKg9EsVIII4WAT+jgDk1LiRVCinYcqqXO9PDF4d5+J79zhLvH6uPm7Iso4qPVuK94Cg==
+length: 1429
 -->
