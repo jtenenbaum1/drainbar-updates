@@ -4,28 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.3.4</title>
-            <pubDate>Wed, 09 Sep 2026 09:01:07 -0400</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+            <title>0.3.5</title>
+            <pubDate>Wed, 09 Sep 2026 09:23:01 -0400</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.3.4
+            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.3.5
 
-Claude credential access is more resilient, with an updated secure installer.
+Updates are easier to notice from the usage popover.
 
-- Background checks, startup, and wake no longer display Keychain password prompts. Choose Refresh when access needs approval.
-- A still-valid Claude credential stays in memory during temporary Keychain access problems. No extra token copy is saved to disk.
-- DrainBar detects replacement credentials and retries once with a newer token before reporting an expired sign-in.
-- Removed credentials and explicit Keychain denial clear the retained credential.
-- Updated Sparkle to 2.9.6, including upstream installer security fixes.
+- A small blue download icon appears beside Settings when an update is available. Click it to open the signed-update window.
+- Automatic update checks now run about once an hour. Your automatic-check and automatic-download preferences are preserved.
+- Ordinary scheduled updates use the quiet footer reminder. Critical updates retain Sparkle's prominent presentation.
+- Successful local releases notify the running app to check its signed update feed again. Repeated signals are coalesced and active update sessions are respected.
 
-Claude Code continues to manage sign-in and token renewal.
+Includes the Claude credential resilience improvements and Sparkle 2.9.6 security fixes from 0.3.4.
 ]]></description>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.4-12.zip" length="1846406" type="application/octet-stream" sparkle:edSignature="5dgTOnll9DVqs9uLBT6gOHAlN+zKiWLKDFwylKSuhyBix3zOsVkTDjMqYOx98Coh8052cli28ViX4fC56GtxAA=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.5-13.zip" length="1858497" type="application/octet-stream" sparkle:edSignature="/6HDopZ7GHUJ6c2qYrvOps1yd/9Qpp1FmqGqiMwJBUThRbnlmIV3j82+L3cFXzv4fRUzPch5C3gdwpGunyVdDg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: VcOdg6CQV9PR8qlXywKJa6Hdisy19z+8baZWA1Mhd4u2/r/Yxwa9qs21nTUnMevBgNH5lIjnOvnBSZZhkRiECQ==
-length: 1873
+edSignature: qt5A3dKYr9oJ9C5nuQFiGKP3mxcAl4jvfzmbwQyAQHRJVaVyOhRS4z6tLqgDOhvG+VLpqr2/CNXWNtFBZIbyCQ==
+length: 1891
 -->
