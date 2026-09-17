@@ -4,22 +4,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.3.8</title>
-            <pubDate>Mon, 14 Sep 2026 08:58:26 -0400</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>0.3.8</sparkle:shortVersionString>
+            <title>0.3.9</title>
+            <pubDate>Thu, 17 Sep 2026 13:11:26 -0400</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.3.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.3.8
+            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.3.9
 
-- Automatically renews expired Claude sign-ins when renewal is available, removing the routine need to open Terminal.
-- Saves renewed credentials back to Claude Code's existing credential store.
-- Handles simultaneous refreshes, temporary credential access failures, and service rate limits without repeated renewal attempts.
+- Fixes repeated Claude Keychain password prompts caused by automatic sign-in renewal.
+- Uses the same Apple credential access path as Claude Code and verifies renewed credentials after saving.
+- Checks existing Keychain permissions before background access and stops repeated attempts after an access failure or timeout.
 ]]></description>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.8-17.zip" length="1882030" type="application/octet-stream" sparkle:edSignature="WJJYar+iCJCwCiGOtP5CtcJ65rJ40vhH68BvOFStuDgx/527EaUGXDTlmhjiMtvWrgVPnoRwnwoUFI3ieD0mBw=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.9-18.zip" length="1890344" type="application/octet-stream" sparkle:edSignature="wWAVa3Yt8jp6cHZ5LGFsaPp0pTjs38mBk6C4btG66uSYWDZXguExcig/scXtS9qV19F3bfEyDvx/z/ey51C4Bw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: i+SKwYzTrsHDSqGMvomBuoBHEptI6iLxFHWP9jZ6rv6IJ/WylXApkZrZNLNU6rgAwPsb23gv/P/mQ4aMWEaDCg==
-length: 1531
+edSignature: /WgV22LoDvREeOlTDrjDcxoq/LFj1xHg8PNy0eb9I/rLmMaSkxxC0pnX9kUu5mdPk6ghCcW2BZsyT+SNE+7WDA==
+length: 1527
 -->
