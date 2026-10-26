@@ -4,22 +4,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DrainBar</title>
         <item>
-            <title>0.3.10</title>
-            <pubDate>Sun, 20 Sep 2026 13:49:15 -0400</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.3.10</sparkle:shortVersionString>
+            <title>0.3.11</title>
+            <pubDate>Mon, 26 Oct 2026 09:40:16 -0400</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.3.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# DrainBar 0.3.10
-
-- Adds a one-time in-app Claude sign-in stored privately in macOS Keychain, keeping usage current without rewriting Claude Code credentials.
-- Keeps the Claude session and supporting web cookies current while preventing scheduled refreshes from opening Keychain password prompts.
-- Corrects oversized credential failures so they are no longer presented as Keychain permission problems.
-]]></description>
-            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.10-19.zip" length="1971420" type="application/octet-stream" sparkle:edSignature="uhVP2stf+UVgpZLE0L6X+vcFiJhlVggEkT7G1TBgKziHEhK9iVVe3aoxeqzMz0f1jae3N7JFZBVhyKEx323sAA=="></enclosure>
+            <enclosure url="https://jtenenbaum1.github.io/drainbar-updates/DrainBar-0.3.11-20.zip" length="1890397" type="application/octet-stream" sparkle:edSignature="hvjAToTpcRkOOhFH1+brrpN3z7uAb1EaiNfflGWHSF/9u139inq9pWyBf7voXvoAwxnqpyyHklxkrX1bcAvECQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +4U3zPz1jsNj3nZygoisGLoR0Clh+iPSCYH/ocW2zD0hqzqGTRjU/1Xv1m93gzZk2MkQi5agYOwMEJ0kgZ0TAw==
-length: 1595
+edSignature: ppwB7sFMRGBkxhVsskV7w8byhfwHMx6nPHhyArraxs0QhGbyOPYEypPYqyEN0FUWAF0FTTHqBlDeMj9A/4UCAw==
+length: 1112
 -->
